@@ -7,7 +7,7 @@ A responsive, dark/light-themed portfolio website for Dhanya Elizabath Jose (DEJ
 ## Tech Stack
 
 - **Framework:** React 19 + TypeScript
-- **Build Tool:** Vite 8 (with Turbopack-class HMR)
+- **Build Tool:** Vite 8
 - **Styling:** Tailwind CSS v4
 - **Icons:** Lucide React
 - **Deployment:** Vercel (auto-detected Vite preset)
@@ -26,8 +26,7 @@ src/
 │   │   ├── Navbar.tsx            # Responsive nav with scroll spy & theme toggle
 │   │   └── Footer.tsx
 │   ├── sections/
-│   │   ├── Hero.tsx              # Landing section with typewriter animation
-│   │   ├── About.tsx             # Summary + key stats
+│   │   ├── Hero.tsx              # Landing section with typewriter animation, summary & key stats
 │   │   ├── Experience.tsx        # Career timeline
 │   │   ├── Projects.tsx          # Project cards with metrics
 │   │   ├── Skills.tsx            # Skill categories with badges
