@@ -17,11 +17,12 @@ export function Hero() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-4 mb-2">
-          {/* Photo placeholder */}
           <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 shrink-0 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 p-[3px]">
-            <div className="w-full h-full rounded-full bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
-              <span className="text-xl sm:text-2xl md:text-3xl font-bold gradient-text">DEJ</span>
-            </div>
+            <img
+              src="/Photo.png"
+              alt="Dhanya"
+              className="w-full h-full rounded-full object-cover object-top"
+            />
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-left">

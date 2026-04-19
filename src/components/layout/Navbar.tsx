@@ -26,7 +26,7 @@ export function Navbar({ theme, toggleTheme }: NavbarProps) {
           onClick={() => scrollToSection("hero")}
           className="text-lg font-bold gradient-text"
         >
-          DEJ
+          Dhanya
         </button>
 
         {/* Desktop nav */}
